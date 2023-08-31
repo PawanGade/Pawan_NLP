@@ -6,3 +6,13 @@ git config --global --unset user.email
 git config --global user.email "gadepawan2002@gmail.com"
 
 git config --global user.name "Pawan Gade"
+
+
+
+
+
+
+
+git add .
+git commit -m "abs"
+git push
