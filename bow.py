@@ -1,5 +1,6 @@
 # Name: Pawan Gade
 # Roll No: 20
+# Sanjivani College Of Engineering, Kopergaon
 ######################################
 
 import gensim
@@ -16,26 +17,6 @@ BoW_corpus = [dictionary.doc2bow(doc, allow_update=True) for doc in doc_tokenize
 print(BoW_corpus)
 id_words = [[(dictionary[id], count) for id, count in line] for line in BoW_corpus]
 print(id_words)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 # OUTPUT
 
